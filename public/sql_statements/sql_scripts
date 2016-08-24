@@ -20,6 +20,9 @@ insert into user_credentials values
 insert into user_credentials values 
 ("jadmin","admin","administrator");
 
+insert into user_credentials values 
+("anushiya","anushiya","user");
+
 create table user_answers (
 	username varchar(20),
 	answer1 int, feedback1 varchar(100),
